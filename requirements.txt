@@ -1,0 +1,39 @@
+# --- Core LangChain & LangGraph Framework ---
+# The main orchestration libraries for building the agentic pipeline
+langchain
+langgraph
+langchain-core
+
+# --- LangChain Community & Experimental Integrations ---
+# For specific components like document loaders and experimental features
+langchain-community
+langchain-experimental
+
+# --- LLM & Embedding Model Integrations ---
+# Providers for the LLMs and embedding models used in the notebook
+langchain-nebius
+langchain-openai
+
+# --- Data Loading & Pre-processing ---
+# For loading the Hugging Face dataset and handling data structures
+datasets<3.0
+huggingface-hub
+pydantic
+
+# --- Scientific Computing & Utilities ---
+# For numerical operations, fuzzy matching, and date parsing
+numpy
+scipy
+rapidfuzz
+python-dateutil
+tqdm # For progress bars
+
+# --- Machine Learning & Embeddings ---
+# Dependencies for the Semantic Chunker and embedding functionalities
+scikit-learn
+sentence-transformers
+
+# --- Knowledge Graph & Visualization ---
+# For creating, manipulating, and plotting the knowledge graph
+networkx
+matplotlib
